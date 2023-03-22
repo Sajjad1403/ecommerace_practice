@@ -30,11 +30,11 @@
         <tbody>
             @foreach ($products as $product)
                 <tr>
-                    
+
                     <td>{{ $product->name }}</td>
                     <td>{{ $product->quantity }}</td>
                     <td>
-                        <img src="{{ asset('storage/product_image/'.$product->image)}}" alt="" title=""
+                        <img src="{{ asset('storage/product_image/' . $product->image) }}" alt="" title=""
                             style="height:130px; width:110px" />
                     </td>
                     <td>
